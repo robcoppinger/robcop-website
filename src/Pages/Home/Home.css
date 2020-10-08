@@ -1,0 +1,23 @@
+.hero {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.headshot {
+  position: absolute;
+  background-color: white;
+  top: -9rem;
+  box-shadow: var(--shadow-subtle);
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.subtitle {
+  color: var(--text-color-secondary);
+  margin-top: 2rem
+}
