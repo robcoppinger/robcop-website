@@ -1,0 +1,29 @@
+html {
+  --bg: #e4e4e4;
+  --bg2: #e0e0e0;
+  --primary-color: #ec6808;
+  --card-color: #f3f2f2;
+
+  --color-headings: #3694ff;
+  --text-color: #202020;
+}
+
+html[data-theme="dark"] {
+  --bg: #333333;
+  --bg2: #3d3d3d;
+  --primary-color: #61dafb;
+  --text-color: #c5c5c5;
+  --card-color: #424242;
+
+  //   .bannerContainer {
+  //     background-position: bottom;
+  //   }
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 500ms !important;
+  transition-delay: 0 !important;
+}
