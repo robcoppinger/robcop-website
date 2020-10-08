@@ -1,0 +1,12 @@
+.card {
+  position: relative;
+  padding: 4rem;
+  min-height: 20rem;
+  /* background-color: red; */
+  border-radius: var(--border-radius);
+  /* border-top-left-radius: 0;
+  border-top-right-radius: 0; */
+  box-shadow: var(--shadow);
+  /* background-color: rgba(0,0,0,0.1); */
+  margin: 0 4rem 0 4rem
+}
