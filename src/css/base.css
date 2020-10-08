@@ -30,7 +30,8 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  color: #202020;
+  background-color: var(--bg);
+  color: var(--text-color);
 }
 
 @media (max-width: 576px) {
@@ -70,6 +71,10 @@ body {
   /* default font-size for document */
   line-height: 2.9rem;
   overflow-x: hidden;
+}
+
+img {
+  display: block;
 }
 
 h1 {
@@ -119,8 +124,8 @@ button:hover {
 }
 
 .section {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   min-height: 60vh;
   background-color: var(--bg);
 }

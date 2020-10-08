@@ -1,11 +1,16 @@
 html {
-  --bg: #e4e4e4;
+  --bg: #f8f8f8;
   --bg2: #e0e0e0;
   --primary-color: #ec6808;
   --card-color: #f3f2f2;
 
   --color-headings: #3694ff;
   --text-color: #202020;
+  --text-color-secondary: #707070;
+
+  --border-radius: 1rem;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 html[data-theme="dark"] {
