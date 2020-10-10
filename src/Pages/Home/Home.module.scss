@@ -1,0 +1,32 @@
+@import "../../css/media.scss";
+.hero {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 60%; /* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
+  margin-bottom: 0;
+  background-image: url("../../assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @include sm {
+    padding: 0;
+    height: 85vh;
+    background-position: 0% 60%;
+  }
+}
+
+.mobileOnly {
+  display: block;
+  @include md {
+    display: none;
+  }
+}
+
+.desktopOnly {
+  display: none;
+  @include md {
+    display: block;
+  }
+}
