@@ -1,4 +1,14 @@
 import React from "react";
-import "./Card.css";
+import styles from "./Card.module.scss";
 
-export const Card = ({children, style}: {children?: React.ReactNode, style?: any}) => <div style={style} className="card">{children}</div>;
+export const Card = ({
+  children,
+  style,
+}: {
+  children?: React.ReactNode;
+  style?: any;
+}) => (
+  <div style={style} className={styles.card}>
+    {children}
+  </div>
+);
