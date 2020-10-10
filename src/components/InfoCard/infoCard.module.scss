@@ -1,0 +1,111 @@
+@import "../../css/media.scss";
+
+$headshotSizeMobile: 18rem;
+$headshotSizeDesktop: 10rem;
+
+.infoCardContainer {
+  margin: 0 4rem 0 4rem;
+
+  @include md {
+    width: 58rem;
+    padding-top: 12rem;
+    margin-left: 10rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  min-height: 20rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  @include md {
+    // padding: 2rem;
+    border-radius: var(--border-radius);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+}
+
+.infoCard {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto auto;
+  margin-top: 11rem;
+  text-align: center;
+  grid-row-gap: 2rem;
+
+  @include md {
+    padding: 1rem;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "headshot title" "infoContainer infoContainer";
+    margin-top: 0;
+    text-align: left;
+    grid-column-gap: 2rem;
+    background-blend-mode: darken;
+  }
+}
+
+.headshot {
+  width: $headshotSizeMobile;
+  height: $headshotSizeMobile;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: -$headshotSizeMobile / 2;
+  left: 50%;
+  transform: translateX(-50%);
+  @include md {
+    position: relative;
+    width: $headshotSizeDesktop;
+    height: $headshotSizeDesktop;
+    top: 0;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  color: var(--text-color-secondary);
+  margin-top: 1rem;
+  @include md {
+    margin-top: 0;
+  }
+}
+
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  grid-gap: 1rem;
+  @include md {
+    grid-area: infoContainer;
+  }
+}
+
+.infoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    margin-right: 1rem;
+    width: 3rem;
+  }
+  p {
+    font-weight: bold;
+  }
+}
