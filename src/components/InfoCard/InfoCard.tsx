@@ -41,6 +41,6 @@ const infoData = [
   },
   {
     icon: images.DummyIcon,
-    text: "JavaScript / PHP",
+    text: "London",
   },
 ];
