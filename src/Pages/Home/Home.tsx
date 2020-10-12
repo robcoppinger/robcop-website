@@ -3,6 +3,7 @@ import styles from "./Home.module.scss";
 import { InfoCard } from "../../components/InfoCard";
 import { StackItem } from "../../components/StackItem";
 import { StackSection } from "../../components/StackSection";
+import { Footer } from "../../components/Footer";
 
 export const Home = () => (
   <>
@@ -16,9 +17,10 @@ export const Home = () => (
     </div>
     <div
       className="contentContainer"
-      style={{ paddingTop: "10rem", paddingBottom: "10rem" }}
+      style={{ paddingTop: "20rem", paddingBottom: "20rem" }}
     >
       <StackSection />
     </div>
+    <Footer />
   </>
 );

@@ -1,0 +1,24 @@
+@import "../../css/media.scss";
+
+.footerContainer {
+  padding: 10rem;
+
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  display: flex;
+  justify-content: space-around;
+  @include md {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    justify-content: flex-end;
+  }
+
+  img {
+    height: 32px;
+
+    @include md {
+      margin-left: 10rem;
+      height: 64px;
+    }
+  }
+}

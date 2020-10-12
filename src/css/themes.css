@@ -10,6 +10,8 @@ html {
   --border-radius: 1rem;
   --shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --footer-bg: #272727;
+  --footer-text: #ffffff;
 }
 
 html[data-theme="dark"] {
@@ -27,6 +29,6 @@ html.transition *:after {
   -webkit-transition: all 500ms !important;
   transition: all 500ms !important;
   -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
+  transition-delay: 0 !important;
 }
 /*# sourceMappingURL=themes.css.map */
