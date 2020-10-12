@@ -1,0 +1,20 @@
+$iconContainerSize: 18rem;
+$iconContainerSizeMobile: 10rem;
+
+.stackItemContainer {
+  display: grid;
+  grid-template-columns: $iconContainerSizeMobile 1fr;
+  grid-column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pillContainer {
+  display: flex;
+  margin-top: 1rem;
+  width: fit-content;
+}
