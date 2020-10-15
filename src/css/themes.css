@@ -1,7 +1,7 @@
 html {
   --bg: #f8f8f8;
-  --bg2: #e0e0e0;
-  --primary-color: #ec6808;
+  --bg2: #ffffff;
+  --primary-color: #f86000;
   --card-color: #f3f2f2;
   --paper-background: #e3e3e3;
   --color-headings: #3694ff;
@@ -19,7 +19,10 @@ html[data-theme="dark"] {
   --bg2: #3d3d3d;
   --primary-color: #61dafb;
   --text-color: #c5c5c5;
+  --text-color-secondary: #a8a8a8;
   --card-color: #424242;
+  --paper-background: #4c4747;
+  --card-background: #3a3a3a;
 }
 
 html.transition,
@@ -32,3 +35,14 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 /*# sourceMappingURL=themes.css.map */
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  /* min-height: 60vh; */
+  background-color: var(--bg2);
+}
+
+.section:nth-child(odd) {
+  background-color: var(--bg);
+}
