@@ -2,14 +2,22 @@ import React from "react";
 import { StackItem } from "../StackItem";
 import styles from "./StackSection.module.scss";
 import { images } from "../../assets/images";
+import { SectionTitle } from "../SectionTitle";
 
 export const StackSection = () => (
-  <div className={styles.stackSectionContainer}>
-    <h1>Stack</h1>
-    <div className={styles.StackItemsContainer}>
-      {stackItems.map((item) => (
-        <StackItem icon={item.icon} title={item.title} pills={item.pills} />
-      ))}
+  <div className="section">
+    <div
+      className="contentContainer"
+      style={{ paddingTop: "10rem", paddingBottom: "10rem" }}
+    >
+      <div className={styles.stackSectionContainer}>
+        <SectionTitle>Stack</SectionTitle>
+        <div className={styles.StackItemsContainer}>
+          {stackItems.map((item) => (
+            <StackItem icon={item.icon} title={item.title} pills={item.pills} />
+          ))}
+        </div>
+      </div>
     </div>
   </div>
 );

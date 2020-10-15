@@ -1,21 +1,5 @@
 @import "../../css/media.scss";
 
-.stackSectionContainer {
-  h1 {
-    position: relative;
-    margin-bottom: 5rem;
-    &:after {
-      content: "";
-      position: absolute;
-      width: 3.5rem;
-      height: 0.5rem;
-      left: 0;
-      bottom: -1rem;
-      background-color: var(--primary-color);
-    }
-  }
-}
-
 .StackItemsContainer {
   display: grid;
   grid-template-columns: 1fr;
