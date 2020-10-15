@@ -4,6 +4,7 @@ import { InfoCard } from "../../components/InfoCard";
 import { StackItem } from "../../components/StackItem";
 import { StackSection } from "../../components/StackSection";
 import { Footer } from "../../components/Footer";
+import { HobbiesSection } from "../../components/HobbiesSection";
 
 export const Home = () => (
   <>
@@ -15,12 +16,8 @@ export const Home = () => (
     <div className={styles.mobileOnly}>
       <InfoCard />
     </div>
-    <div
-      className="contentContainer"
-      style={{ paddingTop: "20rem", paddingBottom: "20rem" }}
-    >
-      <StackSection />
-    </div>
+    <StackSection />
+    <HobbiesSection />
     <Footer />
   </>
 );
