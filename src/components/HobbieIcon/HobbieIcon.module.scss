@@ -1,0 +1,18 @@
+@import "../../css/media.scss";
+
+.hobbieIconContainer {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10rem;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include md {
+    width: 20rem;
+    height: 20rem;
+  }
+  img {
+    width: 60%;
+  }
+}
