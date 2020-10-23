@@ -7,4 +7,20 @@ services:
       dockerfile: Dockerfile
 
     ports:
+      - 3000:80
+
+  reverse-proxy:
+    image: valian/docker-nginx-auto-ssl:1.0.0
+    container_name: reverse-proxy
+    restart: on-failure
+    ports:
       - 80:80
+      - 443:443
+    volumes:
+      - ./.ssl-data:/etc/resty-auto-ssl
+    environment:
+      ALLOWED_DOMAINS: "robcop.co.uk"
+      SITES: "robcop.co.uk=robcop:80"
+      FORCE_HTTPS: "true"
+    depends_on:
+      - robcop
