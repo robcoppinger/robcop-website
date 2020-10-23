@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  robcop:
+    container_name: robcop
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - 80:80
