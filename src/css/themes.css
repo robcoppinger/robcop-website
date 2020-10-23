@@ -2,6 +2,7 @@ html {
   --bg: #f8f8f8;
   --bg2: #ffffff;
   --primary-color: #f86000;
+  /* --primary-color: #65957c; */
   --card-color: #f3f2f2;
   --paper-background: #e3e3e3;
   --color-headings: #3694ff;
@@ -18,6 +19,7 @@ html[data-theme="dark"] {
   --bg: #333333;
   --bg2: #3d3d3d;
   --primary-color: #61dafb;
+  /* --primary-color: #65957c; */
   --text-color: #c5c5c5;
   --text-color-secondary: #a8a8a8;
   --card-color: #424242;

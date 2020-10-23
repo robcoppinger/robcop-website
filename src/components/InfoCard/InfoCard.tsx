@@ -28,19 +28,19 @@ export const InfoCard = () => (
 
 const infoData = [
   {
-    icon: images.DummyIcon,
+    icon: images.Uni,
     text: "University of Pretoria",
   },
   {
-    icon: images.DummyIcon,
+    icon: images.Code,
     text: "Full Stack Web / Mobile",
   },
   {
-    icon: images.DummyIcon,
+    icon: images.Graduation,
     text: "BSc Geoinformatics",
   },
   {
-    icon: images.DummyIcon,
+    icon: images.Location,
     text: "London",
   },
 ];

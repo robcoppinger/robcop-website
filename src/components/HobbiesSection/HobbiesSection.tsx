@@ -12,9 +12,9 @@ export const HobbiesSection = () => (
     >
       <SectionTitle>Hobbies</SectionTitle>
       <div className={styles.iconContainer}>
-        <HobbieIcon icon={images.Laptop} />
-        <HobbieIcon icon={images.Laptop} />
-        <HobbieIcon icon={images.Laptop} />
+        <HobbieIcon icon={images.Camera} />
+        <HobbieIcon icon={images.Music} />
+        <HobbieIcon icon={images.Mountains} />
       </div>
     </div>
   </div>
