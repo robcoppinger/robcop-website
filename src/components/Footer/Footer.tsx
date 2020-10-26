@@ -13,7 +13,7 @@ export const Footer = () => (
     >
       <img src={images.Linkedin} />
     </a>
-    <a href="https://github.com/robcoppinger" target="_blank">
+    <a href="https://github.com/robcoppinger/robcop-website" target="_blank">
       <img src={images.Github} />
     </a>
   </div>
