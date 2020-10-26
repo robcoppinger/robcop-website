@@ -14,6 +14,12 @@ import Uni from "./uni.svg";
 import Music from "./musical-note-outline.svg";
 import Camera from "./camera.svg";
 import Mountains from "./mountains.svg";
+import DanceMonkey from "./hobbies/DanceMonkey.png";
+import LoversOnTheSun from "./hobbies/LoversOnTheSun.png";
+import Composition from "./hobbies/Composition.png";
+import Zambia from "./hobbies/Zambia.png";
+import Snowboard from "./hobbies/Snowboard.png";
+import Surfing from "./hobbies/Surfing.png";
 
 export const images = {
   Headshot,
@@ -32,4 +38,10 @@ export const images = {
   Music,
   Camera,
   Mountains,
+  DanceMonkey,
+  LoversOnTheSun,
+  Composition,
+  Zambia,
+  Snowboard,
+  Surfing,
 };
