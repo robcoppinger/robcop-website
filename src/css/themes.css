@@ -13,6 +13,7 @@ html {
   --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.1);
   --footer-bg: #272727;
   --footer-text: #ffffff;
+  --thumb-color: #e8bd98;
 }
 
 html[data-theme="dark"] {
@@ -25,6 +26,7 @@ html[data-theme="dark"] {
   --card-color: #424242;
   --paper-background: #4c4747;
   --card-background: #3a3a3a;
+  --thumb-color: #abdce4;
 }
 
 html.transition,
