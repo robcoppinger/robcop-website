@@ -14,7 +14,12 @@ export const StackSection = () => (
         <SectionTitle>Stack</SectionTitle>
         <div className={styles.StackItemsContainer}>
           {stackItems.map((item) => (
-            <StackItem icon={item.icon} title={item.title} pills={item.pills} />
+            <StackItem
+              key={item.title}
+              icon={item.icon}
+              title={item.title}
+              pills={item.pills}
+            />
           ))}
         </div>
       </div>

@@ -20,8 +20,8 @@ export const HobbieEntry = ({ title, media }: HobbieEntryProps) => {
     <div className={styles.HobbieEntryContainer}>
       <h2>{title}</h2>
       <div className={styles.mediaContainer}>
-        {media.map((mediaEntry) => (
-          <div className={styles.thumbnailConatiner}>
+        {media.map((mediaEntry, index) => (
+          <div key={index} className={styles.thumbnailConatiner}>
             <a href={mediaEntry.link} target="_blank">
               <img src={mediaEntry.thumbnail} />
             </a>

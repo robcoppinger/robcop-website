@@ -15,7 +15,7 @@ export const InfoCard = () => (
         </div>
         <div className={styles.infoContainer}>
           {infoData.map((item) => (
-            <div className={styles.infoRow}>
+            <div key={item.text} className={styles.infoRow}>
               <img src={item.icon} />
               <p>{item.text}</p>
             </div>
