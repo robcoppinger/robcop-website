@@ -22,8 +22,8 @@ export const HobbieEntry = ({ title, media }: HobbieEntryProps) => {
       <div className={styles.mediaContainer}>
         {media.map((mediaEntry, index) => (
           <div key={index} className={styles.thumbnailConatiner}>
-            <a href={mediaEntry.link} target="_blank">
-              <img src={mediaEntry.thumbnail} />
+            <a href={mediaEntry.link} target="_blank" rel="noopener noreferrer">
+              <img alt={title} src={mediaEntry.thumbnail} />
             </a>
             {mediaEntry.title && (
               <div className={styles.fadingTitle}>

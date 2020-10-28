@@ -10,7 +10,7 @@ type StackItem = {
 
 export const StackItem = ({ icon, title, pills }: StackItem) => (
   <div className={styles.stackItemContainer}>
-    <img src={icon} />
+    <img alt={title} src={icon} />
     <div>
       <h3>{title}</h3>
       <div className={styles.pillContainer}>

@@ -7,7 +7,11 @@ export const InfoCard = () => (
     <div className={styles.card}>
       <div className={styles.infoCard}>
         <div className={styles.headshot}>
-          <img src={images.Headshot} style={{ width: "100%" }}></img>
+          <img
+            alt="headshot"
+            src={images.Headshot}
+            style={{ width: "100%" }}
+          ></img>
         </div>
         <div className={styles.titleContainer}>
           <h1>Rob Coppinger</h1>
@@ -16,7 +20,7 @@ export const InfoCard = () => (
         <div className={styles.infoContainer}>
           {infoData.map((item) => (
             <div key={item.text} className={styles.infoRow}>
-              <img src={item.icon} />
+              <img alt={item.text} src={item.icon} />
               <p>{item.text}</p>
             </div>
           ))}
