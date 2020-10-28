@@ -20,10 +20,12 @@ import Composition from "./hobbies/Composition.png";
 import Zambia from "./hobbies/Zambia.png";
 import Snowboard from "./hobbies/Snowboard.png";
 import Surfing from "./hobbies/Surfing.png";
+import HeroDark from "./hero-dark.jpg";
 
 export const images = {
   Headshot,
   Hero,
+  HeroDark,
   DummyIcon,
   Laptop,
   Mobile,

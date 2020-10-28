@@ -2,6 +2,7 @@ html {
   --bg: #f8f8f8;
   --bg2: #ffffff;
   --primary-color: #f86000;
+  --hero-img: url("../assets/images/hero.jpg");
   /* --primary-color: #65957c; */
   --card-color: #f3f2f2;
   --paper-background: #e3e3e3;
@@ -14,12 +15,14 @@ html {
   --footer-bg: #272727;
   --footer-text: #ffffff;
   --thumb-color: #e8bd98;
+  --info-card-subtitle-color: var(--text-color-secondary);
 }
 
 html[data-theme="dark"] {
   --bg: #333333;
   --bg2: #3d3d3d;
   --primary-color: #61dafb;
+  --hero-img: url("../assets/images/hero-dark.jpg");
   /* --primary-color: #65957c; */
   --text-color: #c5c5c5;
   --text-color-secondary: #a8a8a8;
@@ -27,6 +30,7 @@ html[data-theme="dark"] {
   --paper-background: #4c4747;
   --card-background: #3a3a3a;
   --thumb-color: #abdce4;
+  --info-card-subtitle-color: #202020;
 }
 
 html.transition,

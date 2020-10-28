@@ -82,7 +82,7 @@ $headshotSizeDesktop: 10rem;
 }
 
 .subtitle {
-  color: var(--text-color-secondary);
+  color: var(--info-card-subtitle-color);
   margin-top: 1rem;
   @include md {
     margin-top: 0;
