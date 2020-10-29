@@ -21,6 +21,8 @@ import Zambia from "./hobbies/Zambia.png";
 import Snowboard from "./hobbies/Snowboard.png";
 import Surfing from "./hobbies/Surfing.png";
 import HeroDark from "./hero-dark.jpg";
+import Sun from "./sunny-outline.svg";
+import Moon from "./moon-outline.svg";
 
 export const images = {
   Headshot,
@@ -46,4 +48,6 @@ export const images = {
   Zambia,
   Snowboard,
   Surfing,
+  Sun,
+  Moon,
 };

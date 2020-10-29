@@ -4,6 +4,7 @@ import { InfoCard } from "../../components/InfoCard";
 import { StackSection } from "../../components/StackSection";
 import { Footer } from "../../components/Footer";
 import { HobbiesSection } from "../../components/HobbiesSection";
+import { images } from "../../assets/images";
 
 export const Home = () => {
   type Theme = "light" | "dark";
@@ -26,7 +27,10 @@ export const Home = () => {
             name="theme"
             onChange={toggleTheme}
           />
-          <label htmlFor="theme-switch">Toggle</label>
+          <label htmlFor="theme-switch">
+            <img className={styles.sun} src={images.Moon} />
+            <img className={styles.sun} src={images.Sun} />
+          </label>
         </div>
         <div className={styles.desktopOnly}>
           <InfoCard />
